@@ -1,4 +1,12 @@
-header{
-    background: blue;
-    color: white;
+
+@import "./variables";
+@import "./header";
+
+
+
+.contact{
+    margin: auto;
+    @extend header;
+    background: pink;
+    width: 100% - 10%;
 }
